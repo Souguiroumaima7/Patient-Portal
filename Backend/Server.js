@@ -3,7 +3,7 @@ const router = express.Router()
 const app = express()
 app.use(express.json())
 
-const database = require("./config/database")
+const database = require("./Config/database")
 const dotenv = require("dotenv").config()
 
 
